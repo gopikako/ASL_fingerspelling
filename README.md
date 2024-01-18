@@ -1,5 +1,5 @@
 ## Real-time ASL fingerspelling
 
-The dataset for this project source and the initial model development are based on this kaggle dataset and kaggle notebook.
+The dataset for this project source and the initial model development are based on this [kaggle dataset]([url](https://www.kaggle.com/datasets/mrgeislinger/asl-rgb-depth-fingerspelling-spelling-it-out)) and [kaggle notebook]([url](https://www.kaggle.com/code/brussell757/american-sign-language-classification)).
 
-The current neural network used in VGG19 model with slight updates. The pretrained model is available in models folder. Run the realtime_prediction.py file to read video from webcam and for fingerspelling.
+The current neural network used is VGG19 model with slight updates. Pretrain the model using the notebook and use the model to the realtime_prediction.py file to read video from webcam and for fingerspelling.
